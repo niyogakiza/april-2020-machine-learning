@@ -1,3 +1,13 @@
+# In the real world, we usually have to deal with a lot of raw data. This raw data is not readily ingestible by
+# machine learning algorithms. To prepare data for machine learning, we have to preprocess it before we feed it into
+# various algorithms. This is an intensive process that takes plenty of time, almost 80 percent of the entire data
+# analysis process, in some scenarios. However, it is vital for the rest of the data analysis workflow,
+# so it is necessary to learn the best practices of these techniques. Before sending our data to any machine learning
+# algorithm, we need to cross check the quality and accuracy of the data. If we are unable to reach the data stored
+# in Python correctly, or if we can't switch from raw data to something that can be analyzed, we cannot go
+# ahead. Data can be preprocessed in many ways—standardization, scaling, normalization, binarization, and one-hot
+# encoding are some examples of preprocessing techniques. We will address them through simple examples.
+
 from sklearn import preprocessing
 import numpy as np
 
