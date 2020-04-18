@@ -1,3 +1,10 @@
+# Data scaling                                                        The values of each feature in a dataset can
+# vary between random values. So, sometimes it is important to scale them so that this becomes a level playing field.
+# Through this statistical procedure, it's possible to compare identical variables belonging to different
+# distributions and different variables.Remember, it is good practice to rescale data before training a machine
+# learning algorithm. With rescaling, data units are eliminated, allowing you to easily compare data from different
+# locations.
+
 from sklearn import preprocessing
 import numpy as np
 
